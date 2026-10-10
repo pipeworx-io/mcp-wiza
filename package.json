@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-wiza",
+  "version": "0.1.0",
+  "description": "Wiza MCP — wraps the Wiza 'Individual Reveal' phone-lookup API (wiza.co)",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-wiza": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "wiza"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-wiza.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-238c2b0a155444c460a635227fbd4c64f960d1f8bd0bc88b05e90306d171cf81",
+    "sourceCommit": "1f9b4f362b4a15045caeef1caed5dc906f85b9d1"
+  }
+}
