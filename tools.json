@@ -1,0 +1,22 @@
+[
+  {
+    "name": "wiza_find_phone",
+    "description": "Find a person's mobile phone number from their LinkedIn profile URL, via Wiza. Starts an individual reveal and polls it inline (bounded to ~10s) so you get one synchronous answer. Example: wiza_find_phone({ profile_url: \"https://www.linkedin.com/in/patrickcollison/\", _apiKey: \"your-wiza-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "profile_url": {
+          "type": "string",
+          "description": "The person's LinkedIn profile URL, e.g. \"https://www.linkedin.com/in/patrickcollison/\"."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your Wiza API key (find it on your Wiza account API page)."
+        }
+      },
+      "required": [
+        "profile_url"
+      ]
+    }
+  }
+]

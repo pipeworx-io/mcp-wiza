@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/wiza",
   "title": "Wiza",
   "description": "Wiza MCP — wraps the Wiza 'Individual Reveal' phone-lookup API (wiza.co)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/wiza",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-wiza",
