@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-wiza",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Wiza MCP — wraps the Wiza 'Individual Reveal' phone-lookup API (wiza.co)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "wiza",
     "gatewaySlug": "wiza",
-    "sourceHash": "v1-348fc536f341eebcc0a61f3c359251d1ee01f4b61de338fff17820052ae97175",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-c31b6e2f33934cc09376f819803500146944693d2ead63edffac5950791ac06e",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
